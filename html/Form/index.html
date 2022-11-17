@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-2 bg-c1">
+                        <h2>General Information</h2>    
+                    <form action="registr.hmtl" method="post">
+                        <div>
+                            <label for="Firstname"></label>
+                            <input id="Firstname" name="ner" type="text" placeholder="First name">
+                            <label for="Lastname"></label>
+                            <input id="Lastname" name="ovog" type="text" placeholder="Last name">
+                        </div>
+                       
+                        <div>
+                            <label for="email"></label>
+                            <input id="email" name="email" type="email" placeholder="Email">
+                        </div>
+                
+                        <div>
+                            <label for="Date" placeholder="yyyy.mm.dd"></label>
+                            <input id="date" name="date" type="date" >
+                        </div>
+                
+                        <div>
+                            <label for="company"></label>
+                            <input id="Company" type="text" placeholder="Company">
+                        </div>
+                        <div>
+                            <label for="Position"></label>
+                            <select name="Position" id="position">
+                                <option value="">Position</option>   
+                            </select>
+                        </div>
+                               
+                    </form>
+                </div>
+                <div class="col-2 bg-c2">
+                    <h2>Contact Details</h2>
+                    <form action="">
+                        <div>
+                            <label for="Street"></label>
+                            <input id="Street" name="Street" type="text" placeholder="Street">
+                        </div>
+        
+                        <div>
+                            <label for="Information"></label>
+                            <input id="Information" name="Information" type="text" placeholder="Additional information">
+                        </div>
+        
+                        <div>
+                            <input id="zip" name="zip" type="text" placeholder="Zip-code">
+                            <select name="Place" id="place">
+                                <option value="">Place</option>
+                            </select>
+                        </div>
+        
+                        <div>
+                            <label for="Country"></label>
+                            <input type="text" placeholder="Country">
+                        </div>
+        
+                        <div>
+                            <label for="Code"></label>
+                            <input type="text" placeholder="Code">
+                            <label for="Phone"></label>
+                            <input type="text" placeholder="Phone Number">
+                        </div>
+                        
+                        <div>
+                            <label for="agree"> I do accept the <a href="">Terms and Conditions</a> of your site</label>
+                            <input type="checkbox" name="checkbox" id="checkbox">
+                        </div>
+
+                        <div>
+                            <label for="registr"></label>
+                            <input type="submit" name="Registr Badge">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+</body>
+</html>

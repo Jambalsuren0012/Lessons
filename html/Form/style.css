@@ -1,0 +1,44 @@
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 4rem 0;
+    border-radius: 30px;
+
+}
+.col-2{
+    width: calc(100%/2);
+    /* flex-grow: 1; */
+    /* flex-basis: 400px; */
+  
+}
+   .row{
+    display: flex;
+    /* flex-wrap: wrap; */
+   }
+section{
+    background-color: rgb(89, 160, 226);
+    max-height: 50vh;
+}
+.bg-c1{
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.bg-c1 h2{
+    color:blue ;
+}
+
+.bg-c2{
+    background-color: rgb(67, 39, 225);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+input{
+    margin: 1rem;
+    /* border-bottom: 1px solid black; */
+
+}
+select{
+    margin: 1rem;
+}

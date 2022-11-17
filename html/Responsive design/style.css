@@ -1,0 +1,56 @@
+body{
+    background-color: aquamarine;
+}
+/* mobile display */
+@media screen and (max-width: 480px) {
+    body{
+        background-color: yellowgreen;
+    }
+    .ipad{display: none;}
+    .laptop{display: none;}
+    .desktop{display: none;}
+    .large{display: none;}
+}
+/* Ipad and tablet */
+@media screen and (max-width: 768px ) and (min-width: 481px ) {
+    body{
+        background-color: rgb(13, 97, 25);
+    }
+    
+    .mobile{display:none}
+    .laptop{display: none;}
+    .desktop{display: none;}
+    .large{display: none;}
+}
+/* Desktop  and laptops */
+@media screen and (max-width: 1024px ) and (min-width: 769px) {
+    body{
+        background-color: wheat;
+    }
+    .ipad{display: none;}
+    .mobile{display:none}
+    .desktop{display: none;}
+    .large{display: none;}
+    
+    
+}
+/* Desktop-screens */
+@media screen and (max-width: 1200px ) and (min-width: 1025px) {
+    body{
+        background-color: gray ;
+    }
+    
+    .laptop{display: none;}
+    .ipad{display: none;}
+    .mobile{display:none}
+    .large{display: none;}
+    
+}
+@media screen and (max-width: 2580px ) and (min-width: 1201px) {
+    body{
+        background-color: rgb(68, 29, 29) ;}
+    .laptop{display: none;}
+    .ipad{display: none;}
+    .mobile{display:none}
+    .desktop{display: none;}
+    }
