@@ -29,14 +29,31 @@ section{
     color:blue ;
 }
 
+h2{
+    margin: 1rem;
+}
+
 .bg-c2{
     background-color: rgb(67, 39, 225);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
+.bg-c2 input{
+    background-color: rgb(67, 39, 225);
+}
+
+.bg-c2 placeholder{
+    color: white;
+}
 input{
     margin: 1rem;
     /* border-bottom: 1px solid black; */
+    /* background-color: rgb(67, 39, 225); */
+    border-style: none;
+    border-bottom: 1px solid rgb(202, 195, 195);
+
+
 
 }
 select{
