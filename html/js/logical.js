@@ -21,3 +21,6 @@ weekName = 'Ням';
 } else {
     weekName = 'Буруу тоо';
 }console.log(weekName)
+
+
+
