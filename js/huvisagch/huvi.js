@@ -14,3 +14,4 @@ if(c > 80) {
 if(d > 80) {
     sum = sum + d; // sum = sum + d
 }
+console.log("sum = ", sum)
