@@ -8,4 +8,4 @@ function createPyramid(rows)
     } 
 }
 
-createPyramid(8) // өндөр
+createPyramid(20) // өндөр
