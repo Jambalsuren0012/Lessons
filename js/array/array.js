@@ -26,5 +26,11 @@
 //     console.log(x[i][j]);
 //     }
 //     }
-let now = new Date.getMonth ();
-console.log(now);
+// let now = new Date.getMonth ();
+// console.log(now);
+        // /*
+        //  Function that takes number of rows as input. 
+        //  Output is a 2D array with the values.\\
+       
+let itCompanies = [Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon];
+console.log(itCompanies);
