@@ -29,6 +29,6 @@
 
 const str = 'This is where i Begin';
 
-const parameterizeStr = str.split("-");
+const parameterizeStr = str.split(" ");
 
-console.log(parameterizeStr);
+console.log(parameterizeStr.join("-"));
