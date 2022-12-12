@@ -1,0 +1,19 @@
+#myBtn{
+    background-color: aqua;
+    color: red;
+    border-color: aliceblue;
+    margin-top: 8rem;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 2rem; 
+}
+.btn    {
+    text-align: center !important;
+}
+.col-3{padding: 5rem 6rem; 
+align-items: center;
+align-items: center;
+border: 2px red solid;
+margin: 2rem;}
+.row{display: flex;
+justify-content: space-around;}
