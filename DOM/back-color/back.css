@@ -1,11 +1,12 @@
 #myBtn{
-    background-color: aqua;
-    color: red;
+    background-color: rgb(234, 198, 78);
+    color: rgb(8, 8, 8);
     border-color: aliceblue;
-    margin-top: 8rem;
+    margin-top: 15rem;
     text-align: center;
     padding: 1rem 3rem;
-    font-size: 2rem; 
+    font-size: 2rem;
+    justify-content: space-evenly;
 }
 .btn    {
     text-align: center !important;
