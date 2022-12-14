@@ -13,9 +13,11 @@ h1 {
   font-family: "Noto sans", sans-serif;
   text-align: center;
   font-size: 3.4rem;
+  margin-bottom: 2rem;
 }
 h2 {
   font-size: 1.4rem;
+  margin-bottom: 1rem;
 }
 body {
   font-family: "roboto";
