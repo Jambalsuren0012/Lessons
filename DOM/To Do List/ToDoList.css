@@ -1,0 +1,94 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+h1{
+    color: #1c315e !important;
+}
+h2{
+    color: #1c315e !important;
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+
+
+/* 
+#myinput{
+    background-color:#eeeeee; ;
+    border-bottom-color: orange;
+} */
+section{background-color: ;}
+
+.task {
+    border-bottom-color: orange;
+    border-top-color: #eeeeee00;
+    background-color: #f0e5e5de;
+    border-left-color:#eeeeee00 ;
+    border-right: #eeeeee00;
+    padding: 0;
+    width: 100%;
+    height: 3rem;
+    margin-right: -2rem;
+}
+
+button{
+    background-color: orange;
+    border-color: rgba(255, 166, 0, 0.161);
+    height: 3rem;
+    width: 100%;
+}
+.button2{
+    margin-left: -1.5rem !important;
+}
+
+
+.div2{
+    margin-top: 5rem;
+}
+
+.div1{
+    margin-top: 2rem;
+}    
+
+.input1{
+    background-color: #eeeeee;
+    border: 1px solid #f49d1a;
+}
+.inline{
+    margin:auto;
+}
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+    right: 7rem;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 3px;
+    background-color: #eeeeee;
+    border: 1px solid #f49d1a;
+}
+
+
+i{
+    color: black
+    ;
+}
+form{
+    width: 100%;
+}
