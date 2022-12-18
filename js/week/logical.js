@@ -2,7 +2,7 @@ let weeknumber = 8;
 let weekname;
 
 
-let weekNumber = 1;
+let weekNumber = 2;
 let weekName;
 if (weekNumber == 1) {
 weekName = 'Даваа';
