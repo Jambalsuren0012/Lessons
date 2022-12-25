@@ -6,5 +6,8 @@ if((a + b + c)/3 > (d+f+g)/3){
     console.log(`a team wins`);
 } else {
     console.log(`b team wins`);
+}if ( ((a + b + c)/3 > (d+f+g)/3) < 100 ){
+    console.log(`No winner`);
+    
 }
 
