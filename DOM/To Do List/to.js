@@ -36,7 +36,7 @@
 // })
 
 // Ognoo heseg
-  var d = new Date();
+  let d = new Date();
     let curr_date = d.getDate();
     let curr_month = d.getMonth() + 1; 
     let curr_year = d.getFullYear();
@@ -53,21 +53,28 @@ const ustgah = (e) => {
     const child = e.parentNode.parentNode;
     parent.removeChild(child)
 }
+const allTask = [
+    {name: "JS", status: true, priority: "high" },
+    {name: "HTML", status:false, priority: "high"}
+]
 
-const cardItem = (text) =>{ 
+const cardItem = () => { 
+    tasks.innerHTML = " ";
+    for ( let i = 0; i < allTask.length; i++){
+    const done = allTask[i].status ? "strikethrough" : " " ;
     const item = `   
                 <div class="task">
-                    <input type="text" class="text" readonly value="${text}" />
+                    <input type="text" class="text ${done}" readonly value="${allTask[i].priority}" />
                     <div class="actions">
                         <button class="edit"><i class="fas fa-pen"></i></button>
                         <button class="done"><i class="fas fa-check"></i></button>
-                        <button class="delete" onclick="ustgah(this)"><i class="fas fa-trash"></i></button>
+                        <button class="delete" onclick="ustgah(${i})"><i class="fas fa-trash"></i></button>
                     </div>
                 </div>`;
     return item;
 }
-
-const taskAdd = () => {
+}
+const taskAdd = () => { 
     let text = inputText.value;
     if(text === ""){
         alert("Ta utga oruulaagui baina");
@@ -83,5 +90,3 @@ document.addEventListener('keyup',(e)=>{
         taskAdd();
     }
 })
-
-
