@@ -23,18 +23,95 @@
 
         <div class="col-3">
             <button class="btn btn-outline-primary m-1" type="submit">Log in</button>
-            <button class="btn btn-outline-primary m-1" type="submit">My cart</button>
+
+
+<!-- OFFCANVAS -->
+
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">My cart</button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel">My products</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              
+<!-- 
+              OFFCANVAS-BODY -->
+              <div class="offcanvas-body">
+                <section class="h-100" style="background-color: #eee;">
+                  <div class="container h-100 py-5">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                      <div class="col-10">
+                
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                          <h3 class="fw-normal mb-0 text-black">Shopping Cart</h3>
+                          <div>
+                            <p class="mb-0"><span class="text-muted">Sort by:</span> <a href="#!" class="text-body">price <i
+                                  class="fas fa-angle-down mt-1"></i></a></p>
+                          </div>
+                        </div>     
+<!-- 
+                        OFFCANVAS PRODUCT -->
+                        <div class="card rounded-3 mb-4">
+                          <div class="card-body p-4">
+                            <div class="row d-flex justify-content-between align-items-center">
+                              <div class="col-md-2 col-lg-2 col-xl-2">
+                                <img
+                                  src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img1.webp"
+                                  class="img-fluid rounded-3" alt="Cotton T-shirt">
+                              </div>
+                           
+                              <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                  <i class="fas fa-minus"></i>
+                                </button>
+                
+                                <input id="form1" min="0" name="quantity" value="2" type="number"
+                                  class="form-control form-control-sm" />
+                
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                  <i class="fas fa-plus"></i>
+                                </button>
+                              </div>
+                              <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                
+                        <div class="card">
+                          <div class="card-body">
+                            <button type="button" class="btn btn-warning btn-block btn-lg">Proceed to Pay</button>
+                          </div>
+                        </div>
+                
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                
+                
+                
+              </div>
+            </div>
+
+
             <img src="./Edward Powlowski.png" class="m-1 image" alt="">
         </div>
        </div>
+
        <!-- CARD -->
-    <section style="background-color: #2EC4B6;">
+ 
+    <section style="background-color: #ace9e3;">
         <div class="container py-5">
 
           <div class="row productList">   
 
             <div class="col-md-12 col-lg-3 mb-3 mb-lg-0 ">
-              <div class="card">
+              <div class="card bg">
                 <div class="d-flex justify-content-between p-3">
                   <p class="lead mb-0">Item</p>
                 </div>

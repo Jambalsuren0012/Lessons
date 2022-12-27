@@ -10,7 +10,7 @@ const displayProduct = (products) => {
         (product) => {
         return `<div class="col-md-12 col-lg-3 mb-3 mb-lg-0 m-b-4 hoverable hover-shadow-1-soft mt-2">
 
-              <div class="card">
+              <div class="card ">
                 <div class="d-flex justify-content-between p-3">
                   <p class="lead mb-0">Item</p>
                 </div>
@@ -62,6 +62,7 @@ const getProducts = async () => {
 
 }
 getProducts()
+
 const addCart =(product) => {
   console.log("Added cart");
   cartList.push(product)
