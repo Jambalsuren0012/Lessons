@@ -8,15 +8,17 @@ let allProducts = [ 5 ];
 const displayProduct = (products) => {
     productLists.innerHTML += products.map(
         (product) => {
-        return `<div class="col-md-12 col-lg-3 mb-3 mb-lg-0">
+        return `<div class="col-md-12 col-lg-3 mb-3 mb-lg-0 m-b-4 hoverable hover-shadow-1-soft mt-2">
 
               <div class="card">
                 <div class="d-flex justify-content-between p-3">
                   <p class="lead mb-0">Item</p>
                 </div>
 
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/4.webp"
-                  class="card-img-top" alt="Laptop" />
+                <img src="${product.thumbnail}"
+                  class="card-img-top" alt="Laptop" 
+                  style="width: 100%; height: 200px;" 
+                  />
 
                 <div class="card-body">
                   <div class="d-flex justify-content-between">
@@ -25,9 +27,11 @@ const displayProduct = (products) => {
                   </div>
       
                   <div class="d-flex justify-content-between mb-3">
-                    <h5 class="mb-0">${product.title}</h5>
+                    <h5 class="mb-0 text-overflow">${product.title}</h5>
                     <h5 class="text-dark mb-0">$${product.price}</h5>
                   </div>
+
+                  <button onclick="addCart(${product})" class="btn btn-primary">Add Card</button>
 
                   <div class="d-flex justify-content-between mb-2">
 
@@ -58,4 +62,7 @@ const getProducts = async () => {
 
 }
 getProducts()
-
+const addCart =(product) => {
+  console.log("Added cart");
+  cartList.push(product)
+}
