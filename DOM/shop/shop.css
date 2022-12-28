@@ -1,3 +1,9 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #1B2A41;
+}
+
+
 .logo{
     width: 110px;
     height: 50px;
@@ -5,8 +11,15 @@
 }
     
 .navs{
-    background-color: #CBF3F0;
+    background-color: #324A5F;
 }
 .image{
     margin-left: 2rem;
+}
+.bg{
+    background-color: #CCC9DC;
+}
+.slide{
+    background-color:#1B2A41;
+    margin-top: 1rem;
 }
